@@ -49,6 +49,21 @@ By default, it tracks:
 - `utm_campaign`
 - `utm_term`
 - `utm_content`
+- `utm_content`
+- `utm_content`
+- `utm_content`
+- `utm_content`
+- `utm_content`
+- `gclid`
+- `aclk`
+- `fbclid'`
+- `msclkid`
+- `dclid`
+- `yclid`
+- `gclsrc`
+- `utm_id`
+- `utm_referrer`
+- `twcli`
 
 You can override these by defining `UTM_PARAMETERS` in your `settings.py`:
 
