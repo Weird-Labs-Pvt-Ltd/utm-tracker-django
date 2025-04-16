@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="utm-tracker-django",
-    version="1.1.0",
+    version="1.1.1",
     description="Middleware to track UTM parameters in Django",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
