@@ -1,8 +1,8 @@
 Metadata-Version: 2.4
 Name: utm-tracker-django
-Version: 1.0
+Version: 1.1.0
 Summary: Middleware to track UTM parameters in Django
-Home-page: https://github.com/yourusername/django-utm-tracker
+Home-page: https://github.com/Weird-Labs-Pvt-Ltd/utm-tracker-django
 Author: Preet Sonpal
 Author-email: preet@weirdlabs.in
 Classifier: Framework :: Django
@@ -70,6 +70,21 @@ By default, it tracks:
 - `utm_campaign`
 - `utm_term`
 - `utm_content`
+- `utm_content`
+- `utm_content`
+- `utm_content`
+- `utm_content`
+- `utm_content`
+- `gclid`
+- `aclk`
+- `fbclid'`
+- `msclkid`
+- `dclid`
+- `yclid`
+- `gclsrc`
+- `utm_id`
+- `utm_referrer`
+- `twcli`
 
 You can override these by defining `UTM_PARAMETERS` in your `settings.py`:
 

@@ -18,7 +18,7 @@ A lightweight Django middleware package to track and store UTM parameters in the
 Install the package using pip:
 
 ```bash
-pip install django-utm-tracker
+pip install utm-tracker-django
 ```
 
 ---
@@ -32,7 +32,7 @@ In your Django settings, add the middleware to your `MIDDLEWARE` list:
 ```python
 MIDDLEWARE = [
     ...
-    'django_utm_tracker.middleware.UTMMiddleware',
+    'utm_tracker_django.middleware.UTMMiddleware',
 ]
 ```
 
@@ -98,7 +98,7 @@ You can then store these in your models (like a `Lead`, `Order`, etc.) if needed
 ## 🧱 Project Structure
 
 ```text
-django_utm_tracker/
+utm_tracker_django/
 ├── __init__.py
 ├── conf.py
 └── middleware.py
